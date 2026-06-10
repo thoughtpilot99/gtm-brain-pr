@@ -1,0 +1,24 @@
+# Which buckets you watch and what each is worth as a starting weight.
+# The learn loop (brain/loop.py) adjusts these over time from real outcomes,
+# so treat them as a starting guess, not a permanent setting.
+
+weights:
+  funding: 0.35   # raises and M&A: new budget, new mandate
+  job:     0.25   # roles and leadership changes: a pain just got an owner
+  company: 0.20   # launches, expansion, tech changes: the situation moved
+  social:  0.15   # engagement and topic posts: weakest alone, strong as a tiebreaker
+
+# Optional per-bucket detail the judge can use for context.
+buckets:
+  job:
+    examples: ["new role opened", "role reposted", "leadership change"]
+  social:
+    examples: ["engaged with a competitor", "posted about the problem we solve"]
+  company:
+    examples: ["product launch", "geographic expansion", "tech stack change"]
+  funding:
+    examples: ["new round", "acquisition", "publicly announced budget"]
+
+# Two signals on one account in the same run is itself a signal. The orchestrator
+# clusters them before judging.
+cluster_window_days: 14

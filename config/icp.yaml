@@ -1,0 +1,24 @@
+# Who matters. The brain cannot judge an account without this.
+# The judge reads these fields and uses them to score fit. Be specific. Vague ICP
+# in, vague scoring out.
+
+description: >
+  B2B SaaS and service companies running outbound, 20-500 employees, that have
+  a named revenue or growth owner and have shown they will spend on go-to-market.
+
+good_fit:
+  - has a VP/Head of Sales, Growth, RevOps, or Marketing
+  - 20-500 employees
+  - sells to other businesses
+  - recently raised, expanded, or hired into the GTM org
+
+bad_fit:
+  - pre-revenue with no GTM owner
+  - pure B2C
+  - direct competitor
+  - enterprise procurement cycles longer than our patience
+
+# Free-text the judge can weigh. The thing you would tell a new SDR on day one.
+notes: >
+  Funding plus a relevant role opening on the same account is our strongest combo.
+  A lone social like is weak on its own. Never treat company size as fit by itself.

@@ -1,0 +1,32 @@
+# The intent and guardrails per play. The brain writes the actual copy; this only
+# sets what each touch is for and what it must never do. Plain language on purpose,
+# so a human can read and edit it without touching code.
+
+first_touch:
+  goal: open a conversation off the back of the specific signal
+  must:
+    - reference the actual trigger in the first line
+    - connect it to one problem we solve, in one sentence
+    - end with a low-friction ask (15 minutes, or a one-pager)
+  never:
+    - open with "Hi {{firstName}}"
+    - pitch features
+    - use fake urgency or "circling back"
+
+follow_up:
+  goal: add one new piece of value tied to a fresh signal, not a nudge
+  must:
+    - reference what changed since the last touch
+    - be shorter than the first touch
+  never:
+    - say "just bumping this" or "did you see my last email"
+
+nurture:
+  goal: stay useful without asking for anything, until a stronger signal lands
+  must:
+    - share something genuinely relevant to their situation
+  never:
+    - ask for a meeting
+
+# Cool-off so the brain never hammers an account. The judge also enforces this.
+min_days_between_touches: 7
