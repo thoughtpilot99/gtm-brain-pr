@@ -1,5 +1,9 @@
 # gtm-brain
 
+> **This is the lite version. [Max](https://yourmax.ai/en) is the real thing.**
+>
+> We built Max to solve this exact problem. It turns intent signals into outbound campaigns and runs them across your stack, far beyond what you see here. [Apply for private access →](https://yourmax.ai/en)
+
 A small, open-source skeleton for an **AI GTM brain**: a system that watches buying signals, remembers everything about every account, decides who to act on and why now, drafts outreach grounded in the trigger, and gets smarter every week.
 
 Most "AI SDR" tools are stateless. They send. A brain is different. It is defined by what it **remembers** and what it **learns**, not by how fast it can email.
